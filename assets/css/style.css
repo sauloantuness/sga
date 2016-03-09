@@ -1,3 +1,4 @@
+/*
 .hour{
 	display: block;
 }
@@ -44,4 +45,14 @@
 
 .over{
 	background-color: #789;
+}
+*/
+
+.dia {
+	width: 150px;
+}
+
+.materia {
+	border: 1px solid black;
+	text-align: center;
 }
