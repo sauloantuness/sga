@@ -53,6 +53,47 @@
 }
 
 .materia {
-	border: 1px solid black;
+	background-color: #FFF;
+	border-bottom: 1px solid #CCC;
+	border-radius: 3px;
+	padding: 5px;
 	text-align: center;
+	width: 200px;
+	margin-bottom: 5px;
+}
+
+.materia > h4 {
+	font-size: 14px;
+	font-weight: bold;
+}
+.materia > h5 {
+	font-size: 14px;
+}
+
+.materia > h6 {
+	font-size: 12px;
+}
+.table {
+	background-color: #F2F4F6;
+}
+
+td{
+	width: 150px;
+	margin: 5px;
+	text-align: center;
+	vertical-align: center;
+}
+
+th {
+	text-align: center;
+}
+
+.decom {
+	background-color: #9b59b6;
+	color: #FFF;
+}
+
+.dfm {
+	background-color: #1abc9c;
+	color: #FFF;
 }
