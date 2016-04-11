@@ -6,103 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap 101 Template</title>
 
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
 
-    <!--
-
     <div class="container">
-        <div class="row">
-    		<div class="col-xs-12">
-    			<div class="hour">
-    				<div class="day">
-    					<div class="materia" draggable="true" id="m1">
-    						<h1>Cálculo I</h1>
-    						<h2>Bruno Santos</h2>
-    						<h3>223</h3>
-    					</div>
-    					<div class="materia" draggable="true" id="m2">
-    						<h1>Cálculo II</h1>
-    						<h2>Bruno Santos</h2>
-    						<h3>223</h3>
-    					</div>
-    				</div>
-    				<div class="day">
-    				</div>
-    				<div class="day"></div>
-    				<div class="day"></div>
-    				<div class="day"></div>
-    			</div>
-    			<div class="hour">
-    				<div class="day">
-    					<div class="materia" draggable="true" id="m3">
-    						<h1>Sistemas Operacionais</h1>
-    						<h2>Bruno Santos</h2>
-    						<h3>223</h3>
-    					</div>
-    				</div>
-    				<div class="day">
-    					<div class="materia" draggable="true" id="m4">
-    						<h1>Redes de Computadores</h1>
-    						<h2>Bruno Santos</h2>
-    						<h3>223</h3>
-    					</div>
-    				</div>
-    				<div class="day"></div>
-    				<div class="day"></div>
-    				<div class="day"></div>
-    			</div>
-    		</div>
-        </div>
-    </div>
-
--->
-    <div class="container">
-        <!-- <div class="col-xs-12 periodo">
-            <div class="hora">
-                <div class="hora-desc">
-                    07:00 ~ 08:50
-                </div>
-                <div class="dia">
-                    <div class="materia">
-                        <h4>Nome da Materia</h4>
-                        <h5>Professor</h5>
-                        <h6>223</h6>
-                    </div>
-                </div>
-                <div class="dia"></div>
-                <div class="dia"></div>
-                <div class="dia"></div>
-                <div class="dia"></div>
-                <div class="dia"></div>
-            </div>
-        </div> -->
-
         <div class="table-responsive">
           <table class="table table-striped table-hover">
             <thead>
               <tr>
                 <th>Horário</th>
-                <th>Seg</th>
-                <th>Ter</th>
-                <th>Qua</th>
-                <th>Qui</th>
-                <th>Sex</th>
-                <th>Sab</th>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+                <th>Sábado</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>07:00 ~ 08:40</td>
+                <th>07:00 - 08:40</th>
                 <td>
-                  <div class="materia decom">
+                  <div class="aula decom" draggable="true" id='1'>
                       <h4>AEDS I</h4>
                       <h5>Felipe Reis</h5>
                       <h6>223</h6>
                   </div>
-                  <div class="materia dfm">
+
+                  <div class="aula dfm" draggable="true" id='2'>
                       <h4>Cálculo IV</h4>
                       <h5>Fausto Ribeiro</h5>
                       <h6>205</h6>
@@ -114,10 +47,27 @@
                 <td></td>
                 <td></td>
               </tr>
+
               <tr>
-                <td>08:50 ~ 10:30</td>
+                <th>07:00 - 08:40</th>
                 <td>
-                  <div class="materia">
+                  <div class="aula" draggable="true" id='3'>
+                      <h4>Banco de Dados I</h4>
+                      <h5>Evandrino</h5>
+                      <h6>223</h6>
+                  </div>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <th>07:00 - 08:40</th>
+                <td>
+                  <div class="aula" draggable="true" id='4'>
                       <h4>Banco de Dados I</h4>
                       <h5>Evandrino</h5>
                       <h6>223</h6>
@@ -130,6 +80,7 @@
                 <td></td>
               </tr>
             </tbody>
+
           </table>
         </div>
     </div>

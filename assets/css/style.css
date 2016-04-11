@@ -1,58 +1,4 @@
-/*
-.hour{
-	display: block;
-}
-
-.day{
-	width: 150px;
-	min-height: 60px;
-	background-color: #ABC;
-	margin: 5px 0 0 5px;
-	padding: 5px;
-	display: inline-block;
-	position: relative;
-}
-
-.materia {
-	width: 100%;
-	margin-bottom: 5px;
-	text-align: center;
-	background-color: #EEE;
-	display: block;
-	float: left;
-}
-
-.materia:last-child {
-	margin-bottom: 0;
-}
-
-.materia > h1{
-	font-size: 15px;
-	font-weight: bold;
-	margin: 5px;
-}
-
-.materia > h2{
-	font-size: 12px;
-	font-weight: bold;
-	margin: 5px;
-}
-
-.materia > h3{
-	font-size: 12px;
-	margin: 5px;
-}
-
-.over{
-	background-color: #789;
-}
-*/
-
-.dia {
-	width: 150px;
-}
-
-.materia {
+.aula {
 	background-color: #FFF;
 	border-bottom: 1px solid #CCC;
 	border-radius: 3px;
@@ -60,33 +6,45 @@
 	text-align: center;
 	width: 200px;
 	margin-bottom: 5px;
+	vertical-align: middle;
 }
 
-.materia > h4 {
+.aula > h4 {
 	font-size: 14px;
 	font-weight: bold;
 }
-.materia > h5 {
+.aula > h5 {
 	font-size: 14px;
 }
 
-.materia > h6 {
+.aula > h6 {
 	font-size: 12px;
 }
+
+/*TABLE*/
+
 .table {
 	background-color: #F2F4F6;
 }
 
-td{
-	width: 150px;
-	margin: 5px;
-	text-align: center;
-	vertical-align: center;
+th {
+	text-align: center !important;
+	vertical-align: middle !important;
 }
 
-th {
-	text-align: center;
+td {
+	width: 150px;
+	margin: 5px;
+	text-align: center !important;
+	vertical-align: middle !important;
+	height: 100px;
 }
+
+.hover {
+	background-color: #EEE;
+}
+
+/*DEPARTAMENTOS*/
 
 .decom {
 	background-color: #9b59b6;
