@@ -33,11 +33,15 @@ th {
 }
 
 td {
-	width: 150px;
 	margin: 5px;
 	text-align: center !important;
 	vertical-align: middle !important;
 	height: 100px;
+	width: 300px;
+}
+
+.table th:first-child {
+	white-space: nowrap;
 }
 
 .hover {
@@ -47,11 +51,64 @@ td {
 /*DEPARTAMENTOS*/
 
 .decom {
+	background-color: #1abc9c;
+	color: #FFF;
+}
+.decom:hover {
+	background-color: #16a085;
+}
+
+.dfm {
+	background-color: #2ecc71;
+	color: #FFF;
+}
+
+.dfm:hover {
+	background-color: #27ae60;
+	color: #FFF;
+}
+
+.deltec {
+	background-color: #3498db;
+	color: #FFF;
+}
+
+.deltec:hover {
+	background-color: #2980b9;
+}
+
+.dcsf {
 	background-color: #9b59b6;
 	color: #FFF;
 }
 
-.dfm {
-	background-color: #1abc9c;
+.dcsf:hover {
+	background-color: #8e44ad;
+}
+
+.dequi {
+	background-color: #e67e22;
 	color: #FFF;
+}
+
+.dequi:hover {
+	background-color: #d35400;
+}
+
+.dcsa {
+	background-color: #e74c3c;
+	color: #FFF;
+}
+
+.dcsa:hover {
+	background-color: #c0392b;
+}
+
+.decita {
+	background-color: #34495e;
+	color: #FFF;
+}
+
+.decita:hover {
+	background-color: #2c3e50;
 }
